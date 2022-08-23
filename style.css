@@ -1,0 +1,17 @@
+header {
+  width: 70%;
+  margin: auto;
+  background-color: lightpink;
+  text-align: center;
+}
+
+.actors_card {
+  cursor: pointer;
+  background-color: rgb(224, 221, 221);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
