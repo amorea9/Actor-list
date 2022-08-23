@@ -3,15 +3,26 @@ header {
   margin: auto;
   background-color: lightpink;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .actors_card {
   cursor: pointer;
   background-color: rgb(224, 221, 221);
-  border-radius: 20px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
+  width: 100%;
+
+  padding: 1rem 0;
+}
+.actors_container {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
 }
