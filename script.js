@@ -15,3 +15,9 @@ function showActor(actor) {
   const parent = document.querySelector(".actors_container");
   parent.appendChild(clone);
 }
+
+document.querySelector(".actors_card").addEventListener("click", popUp);
+//or alert?
+function popUp() {
+  console.log("hello");
+}
