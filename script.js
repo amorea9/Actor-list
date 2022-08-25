@@ -1,7 +1,7 @@
 const popUp = document.querySelector(".actors_pop_up");
-let actor;
+const json = "actors.json";
 
-fetch("actors.json")
+fetch(json)
   .then((res) => res.json())
   .then((data) => handleActor(data));
 
