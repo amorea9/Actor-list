@@ -5,6 +5,10 @@ fetch(json)
   .then((res) => res.json())
   .then((data) => handleActor(data));
 
+// async function init(){   other way of loading data?
+//   await loadData();
+//   displayData();
+// }
 function handleActor(data) {
   console.log(data);
   data.forEach(showActor);
